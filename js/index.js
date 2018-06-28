@@ -30,12 +30,14 @@ window.onload=function(){
 	let a=dphs.getElementsByTagName("span");
 	let dphxy=document.getElementsByClassName("dphxy")[a1];
 	let b=dphxy.getElementsByTagName("ul");
-	b[0].style.display="block";
+	a[0].style.display="block";
+	a[0].style.borderBottom="2px solid #ff6700";
 	
 	for(let i=0;i<a.length;i++){
 		a[i].onmouseenter=function(){
 			for(let j=0;j<a.length;j++){
 				b[j].style.display="none";
+				a[0].style.borderBottom="0 solid #ff6700";
 			}
 			b[i].style.display="block";
 		}

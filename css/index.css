@@ -4,6 +4,9 @@
 	/* 去掉列表标签的修饰 */
 	list-style: none; 
 }
+a{
+	text-decoration: none;
+}
 body{
 	width:100%;
 	height: auto;
@@ -407,7 +410,6 @@ input:focus{
 	display:block;
 	width:150px; 
 	height:150px; 
-	background:red;
 	margin-top:42px;
 	margin-left:43px; 
 }
@@ -491,14 +493,12 @@ h3{
 .banner{
 	width: 1226px;
 	height: 460px;
-	background: green;
 	margin: 0 auto;
 	position: relative;
 }
 .imgbox{
 	width:100%; 
 	height:100%; 
-	background:yellow;
 	position:relative;
 
 }
@@ -506,7 +506,6 @@ h3{
 	display: block;
 	width:100%; 
 	height:100%; 
-	/* background:pink; */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -520,7 +519,6 @@ h3{
 .jd3z{
 	width:234px; 
 	height:614px; 
-	background:pink;
 	float: left; 
 }
 .jd3z a img{
@@ -532,7 +530,6 @@ h3{
 .jd3y{
 	width:978px; 
 	height:614px; 
-	background:yellow; 
 	float: right;
 }
 .jd3y ul{
@@ -589,7 +586,6 @@ h3{
 	display: block;
 	width:234px;
 	height: 181px;
-	background: green; 
 }
 .jd3y ul a li .z{
 	margin-top: 0px;
@@ -731,9 +727,6 @@ h3{
 	border-bottom: 2px solid red;
 	cursor: pointer;
 }
-dphs ul li span：first-child{
-	border-bottom: 2px solid red;
-}
 .dphxz{
 	width:234px;
 	height:614px; 
@@ -864,12 +857,10 @@ dphs ul li span：first-child{
 .dphxy4{
 	width:234px; 
 	height:143px; 
-	background:yellow; 
 }
 .dphxy5{
 	width:234px; 
 	height:143px; 
-	background:yellow;
 	margin-top:14px;  
 }  
 .dphxy6{
@@ -887,14 +878,20 @@ dphs ul li span：first-child{
 	float: left;  
 }
 .dphxy6 .a5{
-	margin-left: 24px;
-	line-height:70px; 
-	text-decoration: none;
+	display: block;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 30px;
+    margin-left: 28px;
 }
 .dphxy6 .sp1{
 	margin-left: 24px;
 	text-align:center;
 	line-height:1px; 
+	font-size: 12px;
+    color: #b0b0b0;
+    font-weight: normal;
 }
 .dphxy7 .a9{
 	display: block;
@@ -937,7 +934,6 @@ dphs ul li span：first-child{
 .rphx ul li{
 	width:296px; 
 	height:415px; 
-	background:pink; 
 	float: left;
 	margin-right:14px;
 	transition:all 0.5s 0s linear; 
@@ -953,7 +949,6 @@ dphs ul li span：first-child{
 .rphx1{
 	width:296px; 
 	height:220px; 
-	background:blue; 
 }
 .rphx2{
 	width:296px; 
@@ -966,7 +961,6 @@ dphs ul li span：first-child{
 	display: block;
 	width:296px; 
 	height:220px; 
-	background:pink; 
 }
 .rphx3{
 	width:220px; 
@@ -977,15 +971,17 @@ dphs ul li span：first-child{
 
 }
 .rphx3 a{
-	text-decoration: none;
 	font-size: 12px;
-	color: #333;
-	font-weight: bold;
-	display:-webkit-box;
-	-webkit-box-orient:vertical;
-	-webkit-line-clamp:3;
-	line-height:24px;
-	overflow:hidden;
+    color: #333;
+    margin-top: 4px;
+    width: 235px;
+    height: 60px;
+    margin-left: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 20px;
+    overflow: hidden;
 }
 .rphx4{
 	width:234px; 
@@ -1007,17 +1003,30 @@ dphs ul li span：first-child{
 	 
 }
 .rphx5 a{
-	border-right:1px solid #e0e0e0;
 	text-decoration: none;
 	padding-right: 5px; 
 	color: #000;
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    border-right: 1px solid #e0e0e0;
+    color: #333333;
+    font-size: 12px;
+    line-height: 14px;
 }
 .rphx5 .sp1{
-	color: red;
-	font-size: 12px;
+    float: left;
+    color: #ff6700;
+    text-align: center;
+    line-height: 14px;
+    margin-top: 7px;
 }
 .rphx4 .sp2{
-	color:#b7b0c1 ;
+	font-size: 10px;
+    color: #b0b0b0;
+    line-height: 28px;
+    font-weight: normal;
+    margin-top: 23px;
 }
 .nr{
 	width:1226px; 
@@ -1092,7 +1101,7 @@ dphs ul li span：first-child{
 
 }
 .hot{
-		width: 6px;
+	width: 6px;
 	height: 6px;
 	border: 2px solid #ff6700;
 	background: #fff;
@@ -1760,6 +1769,12 @@ dphs ul li span：first-child{
 	float: left;
 	background:#5f5750;
 }
+.xg1 i{
+	font-size: 33px;
+    margin-top: 19px;
+    display: block;
+    color: #cdcac8;
+}
 .xg2{
 	width:978px; 
 	height:170px ;
@@ -1769,7 +1784,6 @@ dphs ul li span：first-child{
 	display: block;
 	width:316px; 
 	height:170px;
-	background: red;
 	float: left;
 	margin-right: 15px;
 }
@@ -1802,7 +1816,13 @@ dphs ul li span：first-child{
 	font-size:12px; 
 	color: #cdcac8;
 	text-align: center;
+}
+.xg1 span{
+	font-size: 12px;
+    margin-top: 5px;
 	line-height:16px; 
+    display: block;
+    color: #cdcac8;
 }
 .xg11 a:last-child{
 	border-right:0px ;
@@ -1891,4 +1911,60 @@ dphs ul li span：first-child{
 	background-position:-199px -145px;
 	background-repeat:no-repeat;
 	position: absolute;
+}
+/*视频*/
+.shipinbottom{
+	width: 1226px;
+	height: 285px;
+
+}
+.shipinbottom li{
+	width: 296px;
+	height: 285px;
+	background: #ffffff;
+	float: left;
+	margin-right: 14px;
+	position: relative;
+	transition:all 1s;
+}
+.shipinbottom li:hover{
+	box-shadow:0px 0px 5px 5px rgba(0,0,0,0.5)
+}
+.shipinbottom li:last-child{
+	margin-right: 0px;
+}
+.shipin1{
+	display: block;
+	width: 296px;
+	height: 180px;
+}
+.bofang{
+	width: 36px;
+	height: 24px;
+	border-radius: 20px;
+	border: 3px  solid #fff;
+	position: absolute;
+	top: 143px;
+	left: 17px;
+}
+.bofang i{
+	color: #fff;
+	font-size: 25px;
+	margin-left: 6px;
+}
+.bofang:hover{
+	background: #ff9900;
+}
+.pinzhi{
+	font-size: 13px;
+	color: #333333;
+	display: block;
+	text-align: center;
+	margin-top: 31px;
+}
+.shipin3{
+	text-align: center;
+	font-size: 11px;
+	color: #b0b0b0;
+	margin-top: 13px;
 }
